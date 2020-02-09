@@ -1,0 +1,9 @@
+cd /tmp
+
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+yum install epel-release-latest-7.noarch.rpm
+
+yum repolist
+
+yum install ansible -y
